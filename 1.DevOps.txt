@@ -1,0 +1,33 @@
+1.DevOps:
+Introduction what is DevOps?
+DevOps=Development + Operations
+it's a culture + set of practices + tools that help:
+Developers (who write code)
+Operations (who deploy/ manage systems)
+work together instead of working in silos.
+Real-Time Example:
+Imagine you're building a mobile app link Swiggy.
+The developer writes code to add "Track My Order" feature.
+Without DevOps: Developer gives code to Ops team-> they manually deploy-> bugs happen -> delays
+With DevOps: code is automatically tested & deployed-> customer get updated faster & safely
+DevOps help you: 
+release features faster (like adding new payment methods in Zomato)
+Fix bugs quickly (like fixing login issue in IRCTC)
+Automate repetitive tasks (like serve restarts, data-base backups)
+2.8 phase of DevOps LIFE-CYCLE:
+plan - define what to build
+DevOps - write the code
+Build - Compile code into deployable format
+Test - Checks for bugs automatically
+Release - Approach the build for deployment
+Deploy - push app to server or app store 
+Operate - Keep app running , fix any issue
+Monitor - Analyze performance & feedback 
+   Cycle continues: feedback to users-> back to plan
+3.GitHub Basics:
+what is Git & GitHub
+Git = version control system (local)
+GitHub = Online platform to store Git projects
+Real time Analogy: Work together on the same project 
+Real time Example: 
+you're working with a team on an online shopping website
