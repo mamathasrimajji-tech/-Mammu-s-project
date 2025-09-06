@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Card</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    }
+
+    .weather-card {
+      background: #fff;
+      border-radius: 20px;
+      padding: 30px;
+      width: 280px;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .weather-card img {
+      width: 100px;
+      margin-bottom: 15px;
+    }
+
+    .weather-card h2 {
+      margin: 10px 0 5px;
+      font-size: 24px;
+      color: #333;
+    }
+
+    .weather-card p {
+      margin: 5px 0;
+      font-size: 16px;
+      color: #555;
+    }
+
+    .temp {
+      font-size: 36px;
+      font-weight: bold;
+      color: #222;
+      margin: 15px 0;
+    }
+
+    .extra-info {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 15px;
+    }
+
+    .extra-info div {
+      background: #f2f2f2;
+      padding: 10px;
+      border-radius: 12px;
+      width: 45%;
+    }
+
+    .extra-info span {
+      display: block;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="weather-card">
+    <img src="https://cdn-icons-png.flaticon.com/512/1163/1163661.png" alt="Weather Icon">
+    <h2>Hyderabad</h2>
+    <p>Saturday, Sep 6</p>
+    <div class="temp">28°C</div>
+    <p>Partly Cloudy</p>
+
+    <div class="extra-info">
+      <div>
+        <strong>65%</strong>
+        <span>Humidity</span>
+      </div>
+      <div>
+        <strong>12 km/h</strong>
+        <span>Wind</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
